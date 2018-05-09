@@ -3,6 +3,7 @@
 
 import tweepy  # https://github.com/tweepy/tweepy
 import csv
+# See https://apps.twitter.com/
 from my_credentials import consumer_key, consumer_secret, access_key, access_secret
 
 def get_all_tweets(screen_name):
